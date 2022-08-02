@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <tittle><CONTACTO></tittle>
+</head>
+
+<body>
+    <!--HTML SEMÁNTICO-->
+        <!--Mi barra de nacegación-->
+        <nav>
+            <img src="../assests/logo.png" alt="logo-enciende1aluz" width="150px">
+            <!--hipervínculos a mis distintas páginas web-->
+            <!--Listas desordenadas-->
+            <ul>
+            <!--Enlaces Relativos-->
+                <li><a href="../index.html">Inicio</a> </li>
+                <li><a href="./productos.html">Productos</a> </li>
+                <li><a href="./medios-de-pago">Medios de pago</a> </li>
+                <li><a href="./envios.html">Envíos</a> </li>
+                <li><a href="#">Contacto</a> </li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>CONTACTO</h1>
+        </header>
+
+        <form action="procesar.php" name="contacto" method="post">
+            <fieldset>
+                <legend>Mandanos tu consulta!</legend>
+
+                <p>
+                <label>Nombre:
+                    <input type="text" name="nombre" placeholder="juan" required>
+                </label>
+                </p>
+
+                <p>
+                <label>Apellido:
+                    <input type="text" name="apellido" placeholder="gomez" required>
+                </label>
+                </p>
+
+                <p>
+                <label>Email:
+                    <input type="email" name="email" placehold="hola@servidor.com" required>
+                </label>
+                </p>
+
+                <p>
+                <label>Contrasena:
+                    <input type="password" name="contrasena" placehold="hola" required>
+                </label>
+                </p>
+
+                <p>
+                <label>En que podemos ayudarte?:
+                    <input type="text" required>
+                </label>    
+                </p>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar formulario</button>
+
+            </fieldset>
+        </form>
+
+    <footer> 
+        <h2>Desarrollado por Delfina Baumann</h2>
+    </footer>
+</body>
+</html>

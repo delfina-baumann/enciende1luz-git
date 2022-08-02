@@ -1,0 +1,179 @@
+body{
+    background-color: bisque;
+}
+
+button{
+    background-color: rgb(247, 202, 140);
+    margin-left: 20px;
+}
+
+main h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+
+    margin-left: 20px;
+}
+
+main h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+main h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+main h5 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+footer h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+body nav ul{
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    border-left: solid 1px black;
+}
+
+footer h2{
+    margin: 20px;
+}
+
+main h4{
+    padding: 50px;
+}
+
+body header{
+    border-left: solid 3px black;
+}
+
+main p{
+    height: auto;
+    width: 95px;
+    background-color: rgb(249, 208, 157);
+
+    margin-left: 20px;
+}
+
+main img{
+    margin-left: 20px;
+}
+
+#ver-mas{
+    margin-top: 20px;
+}
+
+.flex-container{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(248, 198, 137);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.flex-container > *{
+    padding: 1px;
+    margin: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.grid-container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+    width: 90%;
+    height: 100px;
+    margin: 20px auto;
+    border: 1px groove black;
+
+    display: grid;
+    grid-template-columns: 32% 33% 32%;
+    grid-template-rows: 100%;
+    gap: 10px;
+}
+
+.items{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1{
+    background-color: rgb(248, 204, 140);
+}
+
+.item2{
+    background-color: rgb(248, 203, 140);
+}
+
+.item3{
+    background-color: rgb(248, 202, 140);
+}
+
+@media (max-width:768px){
+    .grid-container{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+    
+        width: 90%;
+        height: 100px;
+        margin: 20px auto;
+        border: 1px groove black;
+    
+        display: grid;
+        grid-template-columns: 32% 33% 32%;
+        grid-template-rows: 100%;
+        gap: 10px;
+    }
+}
+
+.cards{
+    height: 50px;
+    width: 10%;
+}
+
+.img-main{
+    animation-name: animo;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: .5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes animo {
+    0%{
+        transform: matrix(1);
+        border-radius: 100%;
+    }
+
+    50%{
+        transform: matrix(3);
+    }
+
+    100%{
+        transform: matrix(.5);
+    }
+}
