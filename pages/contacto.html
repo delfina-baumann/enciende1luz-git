@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+    <!--hoja de estilos de manera externa-->
     <link rel="stylesheet" href="../css/estilos.css">
     <tittle><CONTACTO></tittle>
 </head>
@@ -29,48 +32,47 @@
             <h1>CONTACTO</h1>
         </header>
 
-        <form action="procesar.php" name="contacto" method="post">
-            <fieldset>
-                <legend>Mandanos tu consulta!</legend>
+        <div class="container">
+            <h2>Mandanos tu consulta!</h2>
+            <form action="#">
 
-                <p>
-                <label>Nombre:
-                    <input type="text" name="nombre" placeholder="juan" required>
-                </label>
-                </p>
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                        <input type="text" name="nombre" placeholder="juan" required>
+                </div>
 
-                <p>
-                <label>Apellido:
-                    <input type="text" name="apellido" placeholder="gomez" required>
-                </label>
-                </p>
+                <div class="form-group">
+                    <label>Apellido: </label>
+                        <input type="text" name="apellido" placeholder="gomez" required>
+                </div>
 
-                <p>
-                <label>Email:
-                    <input type="email" name="email" placehold="hola@servidor.com" required>
-                </label>
-                </p>
+                <div class="form-group">
+                    <label>Email:</label>
+                        <input type="email" name="email" placeholder="hola@servidor.com" required>
+                </div>
 
-                <p>
-                <label>Contrasena:
-                    <input type="password" name="contrasena" placehold="hola" required>
-                </label>
-                </p>
+                <div class="form-group">
+                    <label>Contrasena:</label>
+                        <input type="password" name="contrasena" placeholder="hola" required>
+                </div>
 
-                <p>
-                <label>En que podemos ayudarte?:
-                    <input type="text" required>
-                </label>    
-                </p>
+                <div class="form-group">
+                    <label>En que podemos ayudarte?:</label>
+                        <input type="text" required>
+                </div>
 
-                <button type="submit">Enviar</button>
-                <button type="reset">Borrar formulario</button>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar formulario</button>
 
-            </fieldset>
-        </form>
+            </form>
+        </div>
+
 
     <footer> 
         <h2>Desarrollado por Delfina Baumann</h2>
     </footer>
+
+    <script src="../libs/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
