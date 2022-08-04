@@ -75,7 +75,7 @@ main img{
 }
 
 .flex-container{
-    height: 550px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -163,6 +163,11 @@ main{
     animation-iteration-count: 1;
 }
 
+.img-main{
+    height: 200px;
+    width: 85%;
+}
+
 @keyframes animo {
     0%{
         transform: matrix(1);
@@ -176,4 +181,9 @@ main{
     100%{
         transform: matrix(.5);
     }
+}
+
+.img-logo{
+    height: 50px;
+    width: 25%;
 }
