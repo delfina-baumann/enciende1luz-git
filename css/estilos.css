@@ -218,7 +218,6 @@ h3{
 }
 
 .topnav a{
-    float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -226,7 +225,6 @@ h3{
 
 @media screen and (max-width: 600px){
     .topnav a{
-        float: none;
         width: 100%;
     }
 }
