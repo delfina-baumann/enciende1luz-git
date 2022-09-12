@@ -1,0 +1,23 @@
+{
+  "name": "enciende1luz-git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delfina-baumann/enciende1luz-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delfina-baumann/enciende1luz-git/issues"
+  },
+  "homepage": "https://github.com/delfina-baumann/enciende1luz-git#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
